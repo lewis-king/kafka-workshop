@@ -6,5 +6,6 @@ Send a message using the cli
 
 Hit the exposed service endpoint
 ```curl -d '{"message":"Ronaldo scored a goal"}' -H "Content-Type: application/json" -X POST http://localhost:8080/sports```
+
 ```curl -d '{"message":"Messi misses a penalty"}' -H "Content-Type: application/json" -X POST http://localhost:8080/sports```
 
